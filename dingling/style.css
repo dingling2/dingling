@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;						/*设置网页默认外边距为0*/
+	padding:0;					/*设置网页默认内边距为0*/
+	border:0;						/*设置网页默认无边框*/
+	font-size:12px;				/*设置网页默认文字大小为12px*/
+	font-family:"宋体";				/*定义网页默认字体为宋体*/
+}
+body{
+	background:#580000;
+}
+#all{
+	width:1007px;
+	margin:0 auto;				/*设置上下边距为0，左右居中对齐*/
+}
+header{
+	width:960px;		/*设置宽度为960px*/
+	height:110px;		/*设置高度为110px，该值是根据后面要插入的logo图片设置的*/
+	margin:0 auto;		/*设置上下外边距为0，左右居中对齐*/
+}
+header img{
+	float:left;							/*设置logo图片左浮动*/
+}
+header span{
+	float:right;						/*设置电话号码右浮动*/
+	margin:40px 40px 0px 0px;			/*设置电话号码外边距*/
+	color:#FFFFFF;					/*设置电话号码文字颜色*/
+	font-size:36px; 					/*设置电话号码文字大小*/
+}
+#dh{
+	width:1007px;		/*设置宽度为1007px。注意，该层的高度和宽度为背景图片dh.jpg的高度和宽度*/
+	height:65px;		/*设置高度为65px*/
+	background:url(images/dh.jpg) no-repeat top center;		/*设置背景图片*/
+	clear:both;		/*清除浮动*/
+	margin:0 auto;		/*设置上下外边距为0，左右居中对齐*/
+	}
+#dh nav{
+	height:30px;						/*设置无序列表的高度为30px */
+	padding-top:30px;					/*设置无序列表的内上边距为30px */
+	margin-left:80px;					/*设置无序列表的左外边距为80px */
+}
+#dh nav a{
+	float:left;							/*设置列表项向左浮动*/
+	width:80px;						/*设置列表项宽度为80px*/
+	margin-left:40px;					/*设置列表项的左外间距*/
+	text-align:center;					/*设置文字在列表项内水平居中*/
+	font-family:"黑体";					/*设置列表项字体*/
+	font-size:14px;					/*设置列表项文字大小*/
+	line-height:22px; 					/*设置行高属性，使文字在这22px中垂直居中*/
+	color:#fff7b3;						/*设置超链接颜色*/
+	text-decoration:none;				/*设置超链接无下划线*/
+	display:block; 					/*将超链接设置为块*/
+}
+#dh nav a:hover{
+	color:#8b1f1c;							/*设置鼠标指针经过时超链接的颜色*/
+	background-image:url(images/nav_bj.gif);	/*指定鼠标指针经过时超链接的背景图片*/
+	background-repeat:no-repeat;				/*设置背景图片不重复*/
+	line-height:24px;						/*设置行高为24px，比背景图片略高*/
+}
+
+#main{
+	width:960px;                    /*设置宽度为960px*/
+	background-color:#FFFAEA;       /*设置背景颜色*/
+	height:auto;                     /*设置高度为自动*/
+	margin:0 auto;                   /*设置上下外边距为0，左右居中对齐*/
+}
+#m1{
+	width:950px;			/*设置宽度。也可以不用设置该宽度，直接继承父层的属性*/
+	height:210px;			/*设置高度为210px*/
+padding:5px;			/*设置内边距为5px*/
+}
+.login{
+	background-image:url(images/login_bj.jpg);			/*指定背景图片*/
+	background-repeat:no-repeat;						/*设置背景图片不重复*/
+	height:140px; 								/*设置高度*/
+	float:left; 									/*设置左浮动*/
+	width:177px; 									/*设置宽度*/
+padding:60px 10px 10px 20px;					/*设置内边距*/
+	text-align:center; 								/*设置文本居中对齐*/
+}
+.login label{ 
+	display:block;							/*将<label>标签设置为块元素*/
+	width:50px;							/*设置宽度*/
+	color:#6d520d;						/*设置颜色*/
+	line-height:24px;						/*设置行高*/
+	text-align:right;						/*设置文字右对齐*/
+}
+#user_pwd, #user_name{
+	border:1px solid #9c750e;				/*设置边框*/
+	background-color:#c4a354;				/*设置背景颜色*/
+	width:110px;							/*设置宽度*/
+	line-height:24px;						/*设置行高*/
+	height:24px; 							/*设置高度*/
+	color:#FFFFFF;						/*设置颜色*/
+	position:relative;						/*使用相对定位*/
+	left:20px;								/*向元素的原始左侧位置增加20像素*/
+	top:-24px;							/*从元素的原始顶端位置减去24像素*/
+}
+#login_submit,#login_reset{
+	background:url(images/login_btn.jpg) no-repeat; 			/*设置背景图片*/
+	height:23px;											/*设置高度*/
+	width:66px;											/*设置宽度*/
+	color:#FFFFFF;										/*设置文字颜色*/
+	border:none; 											/*设置无边框*/
+}
+
+.ad{
+	width:725px;									/*设置宽度*/
+	height:210px;									/*设置高度*/
+	float:left; 									/*设置左浮动*/
+	margin-left:10px; 								/*设置左侧外边距*/
+}
+#m2{
+	height:279px; 							/*设置高度*/
+	width:960px; 								/*设置宽度*/
+}
+.hlzx{
+	width:596px;								/*设置宽度*/
+	float:left;									/*设置左浮动*/
+	margin-left:6px;							/*设置左侧外边距*/
+	background-color:#f7efca;					/*设置背景颜色*/
+	height:279px; 							/*设置高度*/
+}
+.hlzx_ad img{
+	width:118px;						/*设置图片宽度*/
+	height:145px;						/*设置图片高度*/
+	border:1px solid #7b0002;			/*设置图片边框*/
+	margin:20px 0px 0px 20px;			/*设置图片外边距*/
+	float:left;							/*设置图片左浮动*/
+}
+.hlzx_ad dl{
+	float:left; 							/*设置定义列表左浮动*/
+	width:360px;							/*设置定义列表的宽度*/
+	margin:5px 0px 0px 40px;				/*设置定义列表的的外边距*/
+}
+.hlzx_ad dt{
+	color:#582c00;						/*设置文字颜色*/
+	font-weight:bold;						/*设置文字加粗*/
+	line-height:30px;						/*设置行高*/
+}
+.hlzx_ad dd{
+	color:#a1411d; 						/*设置文字颜色*/
+	text-indent:20px; 						/*设置首行缩进*/
+	line-height:24px;						/*设置行高*/
+	margin-left:20px;						/*设置左外边距*/
+}
+.hlzx_ad ul{
+	float:left;								/*设置无序列表左浮动*/
+	width:300px;							/*设置无序列表的宽度*/
+	margin-left:40px;						/*设置无序列表的左外边距*/
+}
+.hlzx_ad ul li{
+	list-style:none; 						/*取消列表符号*/
+	background:url(images/lbbj.gif) no-repeat;	/*设置背景图片*/
+	height:25px; 							/*设置高度*/
+	line-height:25px;						/*设置行高*/
+	text-indent:15px;						/*设置首行缩进*/
+}
+.hlzx_ad ul li a {
+	color:#580c00;							/*设置超链接颜色*/
+	text-decoration:none; 						/*去掉超链接下划线*/
+}
+.hlzx_ad ul li a:hover {
+	color:#9e3423;
+}
+
+.show{
+	width:335px;								/*设置宽度*/
+	float:right;								/*设置右浮动*/
+	margin-right:6px; 							/*设置右侧外边距*/
+	background-color:#f7efca;					/*设置背景颜色*/
+	height:279px;								/*设置高度*/
+}
+.show .video{
+	margin-left:50px;                        /*设置左侧外边距*/
+	margin-top:20px;                        /*设置上侧外边距*/
+	border:#b69e63 6px solid;                 /*设置边框线*/
+}
+
+#m3{
+	width:960px; 								/*设置宽度*/
+	height:240px;								/*设置高度*/
+}
+#m3 dl{
+	float:left; 							/*设置向左浮动*/
+	margin-left:40px;						/*设置左外边距*/
+	text-align:center;						/*设置居中对齐*/
+	width:190px; 							/*设置宽度*/
+}
+#m3 dl img{
+	margin-top:8px; 						/*设置图片的上外边距*/
+	border:3px solid #d1bd94;				/*设置图片边框*/
+}
+#m3 dl dd{
+	line-height:35px;						/*设置行高*/
+	font-size:12px;						/*设置文字大小*/
+	font-weight:bold;						/*设置文字加粗*/
+}
+#m3 dl dd a:link,#m3 dl p a:visited{			/*设置链接默认样式和访问后的样式*/
+	color:#937943; 						/*设置文字颜色*/
+	text-decoration:none; 					/*去除下划线*/
+}
+#m3 dl dd a:hover,.#m3 dl p a:active{
+	color:#a98c50;							/*设置文字颜色*/
+	text-decoration:none; 					/*去除下划线*/
+}
+#link{
+    width:960px; 								/*设置宽度*/
+	height:35px;								/*设置高度*/
+	background-color:#f6e1b6;					/*设置背景颜色*/
+	margin:0 auto; 							/*设置上下外边距为0，左右居中对齐*/
+}
+#link nav{
+	margin-left:180px;                   /*设置左外边距*/
+	width:680px;                       /*设置宽度*/
+}
+#link nav a{
+	float:left; 							/*设置向左浮动*/
+	margin-left:40px;						/*设置左外边距*/
+	line-height:30px;						/*设置行高*/
+	color:#7b0000;						/*设置文字颜色*/
+	font-size:12px;						/*设置文字大小*/
+	}
+#link span{
+	float:left; 							/*设置向左浮动*/
+	font-weight:bold;
+	padding-top:9px;
+}
+#link a:link,#link a:visited{				/*设置链接默认样式和访问后的样式*/
+	color:#580c00;						/*设置文字颜色*/
+	text-decoration:none;					/*设置无下划线*/
+}
+#link a:hover,#link a:active{			/*设置鼠标经过和按下鼠标时的超链接样式*/
+	color:#9e3423;						/*设置文字颜色*/
+	text-decoration:none; 					/*设置无下划线*/
+}
+
+footer{
+	width:960px;								/*设置宽度*/
+	margin:0 auto;								/*设置上下外边距为0，左右居中对齐*/
+	background:url(images/down.jpg) no-repeat;		/*设置背景图片*/
+	height:101px;								/*设置高度*/
+	clear:both;								/*清除浮动*/
+	text-align:center;							/*设置文字居中对齐*/
+	font-size:12px; 							/*设置文字大小*/
+	line-height:25px;							/*设置行高*/
+}
